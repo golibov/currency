@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-image: url("./images/dollar-banknotes-frame_1150-6686.avif");
+    background-position: center;
+    padding: 300px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  h1{
+    font-size:70px;
+    color: #fff;
+  }
+  
+  .exchange-container {
+   
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .input-group {
+  
+
+  }
+  
+  input[type="number"] {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 22px;
+    width: 400px;
+  }
+  
+  select {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 22px;
+    width: 200px;
+  }
+  
+  button {
+   width: 200px;
+   height: 80px;
+   border-radius: 25px;
+   border: none;
+   color: white;
+   font-size: 25px;
+   border: 2px solid rgb(33, 207, 33);
+  color: white;
+   transition: all 0.2s ease-in;
+   background-color: rgb(33, 207, 33);
+   margin-top: 100px;
+  }
+
+  button:hover{
+  background-color: green;
+  border: 2px solid green;
+    color: white;
+  }
